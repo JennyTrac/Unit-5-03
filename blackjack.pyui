@@ -1,0 +1,270 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {680, 490}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Play Blackjack!",
+          "font_name" : "<System>",
+          "name" : "title_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{265, 299}, {150, 32}}",
+          "uuid" : "92F607C2-A3F8-46BF-8715-154B2C144081"
+        },
+        "frame" : "{{251, 20}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Your cards:",
+          "font_name" : "<System>",
+          "name" : "yourcards_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{265, 299}, {150, 32}}",
+          "uuid" : "4E0BD7F7-E743-417A-9495-C24FEF2E9DCC"
+        },
+        "frame" : "{{156, 64}, {106, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "The dealer's cards:",
+          "font_name" : "<System>",
+          "name" : "thedealerscards_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{265, 299}, {150, 32}}",
+          "uuid" : "13410F5D-04E8-48B2-AE5A-9C01D1EF86F0"
+        },
+        "frame" : "{{445, 64}, {162, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "showusercard1_imageview",
+          "uuid" : "55641ECF-5D50-4944-937A-55B582430F16",
+          "frame" : "{{290, 265}, {100, 100}}"
+        },
+        "frame" : "{{6, 116}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "showusercard2_imageview",
+          "uuid" : "55641ECF-5D50-4944-937A-55B582430F16",
+          "frame" : "{{290, 265}, {100, 100}}"
+        },
+        "frame" : "{{89, 116}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "showusercard3_imageview",
+          "uuid" : "55641ECF-5D50-4944-937A-55B582430F16",
+          "frame" : "{{290, 265}, {100, 100}}"
+        },
+        "frame" : "{{172, 116}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "showdealercard3_imageview",
+          "uuid" : "55641ECF-5D50-4944-937A-55B582430F16",
+          "frame" : "{{290, 265}, {100, 100}}"
+        },
+        "frame" : "{{599, 116}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "showdealercard2_imageview",
+          "uuid" : "55641ECF-5D50-4944-937A-55B582430F16",
+          "frame" : "{{290, 265}, {100, 100}}"
+        },
+        "frame" : "{{516, 116}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "showdealercard1_imageview",
+          "uuid" : "55641ECF-5D50-4944-937A-55B582430F16",
+          "frame" : "{{290, 265}, {100, 100}}"
+        },
+        "frame" : "{{433, 116}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "7CDEBC18-52E1-4F56-9B3F-0ABECA6EF862",
+          "name" : "addcard_button",
+          "action" : "add_card_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{300, 299}, {80, 32}}",
+          "title" : "Add card"
+        },
+        "frame" : "{{115.5, 276}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "B3E39F0A-C4EB-4ECE-8CD6-D8A9047D8E1E",
+          "name" : "checkcards_button",
+          "action" : "check_cards_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{300, 299}, {80, 32}}",
+          "title" : "Check cards"
+        },
+        "frame" : "{{480.5, 276}, {88, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "usertotal_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{265, 299}, {150, 32}}",
+          "uuid" : "103699D6-8DB8-4B6A-ABBF-C7157F2EA214"
+        },
+        "frame" : "{{6, 344}, {301, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "dealertotal_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{265, 299}, {150, 32}}",
+          "uuid" : "22105197-A0AE-4DEA-BE05-3147777F7F93"
+        },
+        "frame" : "{{374, 344}, {301, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "winner_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{265, 299}, {150, 32}}",
+          "uuid" : "2D6FE16E-C395-4EA5-BD77-0E1F3D3704C9"
+        },
+        "frame" : "{{251, 414}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "showusercard4_imageview",
+          "uuid" : "55641ECF-5D50-4944-937A-55B582430F16",
+          "frame" : "{{290, 265}, {100, 100}}"
+        },
+        "frame" : "{{255, 116}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "showusercard5_imageview",
+          "uuid" : "55641ECF-5D50-4944-937A-55B582430F16",
+          "frame" : "{{290, 265}, {100, 100}}"
+        },
+        "frame" : "{{338, 116}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
